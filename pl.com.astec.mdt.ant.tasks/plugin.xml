@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ant.core.antTasks">
+      <antTask
+            class="pl.com.astec.mdt.ant.tasks.NormalizePath"
+            eclipseRuntime="false"
+            headless="true"
+            library="lib/pdebuild-ant.jar"
+            name="normalize.path">
+      </antTask>
+   </extension>
+
+</plugin>
